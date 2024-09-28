@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+  
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
@@ -12,35 +12,32 @@ body {
     align-items: center;
     height: 100vh;
 }
-
+  
 .hidden {
     display: none;
 }
-
+  
 h1 {
     margin-bottom: 20px;
     color: #333;
-    text-align: center;
 }
-
+  
 .players-section {
     margin-bottom: 20px;
 }
-
+  
 label {
     font-size: 1.2em;
     color: #333;
 }
-
+  
 input {
     padding: 10px;
     margin: 5px;
     font-size: 1em;
     width: 200px;
-    border: 2px solid #333;
-    border-radius: 5px;
 }
-
+  
 button {
     padding: 10px 20px;
     font-size: 1em;
@@ -48,16 +45,14 @@ button {
     background-color: #333;
     color: #fff;
     border: none;
-    border-radius: 5px;
     margin-top: 10px;
-    transition: background-color 0.3s, transform 0.2s;
+    transition: background-color 0.3s;
 }
-
+  
 button:hover {
     background-color: #555;
-    transform: scale(1.05);
 }
-
+  
 #game-board {
     display: grid;
     grid-template-columns: repeat(3, 100px);
@@ -65,7 +60,7 @@ button:hover {
     gap: 10px;
     margin-top: 20px;
 }
-
+  
 .cell {
     width: 100px;
     height: 100px;
@@ -78,24 +73,21 @@ button:hover {
     cursor: pointer;
     transition: background-color 0.3s;
 }
-
+  
 .cell:hover {
     background-color: #f1f1f1;
 }
-
+  
 #status-message {
     margin-top: 20px;
     font-size: 1.2em;
     color: #333;
-    text-align: center;
 }
-
+  
 #ranking-list {
     list-style: none;
-    padding: 0;
-    text-align: center;
 }
-
+  
 #ranking-list li {
     font-size: 1.2em;
     margin-bottom: 5px;
